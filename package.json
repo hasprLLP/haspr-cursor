@@ -1,0 +1,87 @@
+{
+  "name": "haspr-cursor",
+  "version": "1.4.8",
+  "description": "The Magnificent Cursor used in Haspr Website",
+  "private": false,
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "core-js": "^3.25.1",
+    "gsap": "^3.11.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasprLLP/haspr-cursor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hasprLLP/haspr-cursor/issues"
+  },
+  "homepage": "https://github.com/hasprLLP/haspr-cursor",
+  "author": "Abhay Rohit <frustasio@gmail.com> (https://www.linkedin.com/in/abhayrohit/)",
+  "funding": {
+    "type": "individual",
+    "url": "https://haspr.in/"
+  },
+  "keywords": [
+    "react",
+    "next",
+    "react-js",
+    "next-js",
+    "cursor",
+    "mouse",
+    "pointer",
+    "follower",
+    "animation",
+    "jelly",
+    "ui",
+    "library",
+    "haspr",
+    "magic",
+    "custom",
+    "css",
+    "video",
+    "image",
+    "text",
+    "icon",
+    "effects",
+    "gsap",
+    "awesome",
+    "fluid"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "babel-preset-minify": "^0.5.2"
+  }
+}
