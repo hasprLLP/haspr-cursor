@@ -4675,10 +4675,10 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-haspr-cursor@^1.4.7:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/haspr-cursor/-/haspr-cursor-1.4.7.tgz#a4ade182a327b46f174281da1543c9008abecc69"
-  integrity sha512-+DSscD0ZlNtuyow7kwWKMgZ7PQVSe7TBHX44woutHr5i3SYa6QxDBchcpmWtqur+F2hzDOMCN/3qE+oDH2ehCA==
+haspr-cursor@^1.4.8:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/haspr-cursor/-/haspr-cursor-1.4.8.tgz#c7768e5578b34178c201195bc0ba8789935252a0"
+  integrity sha512-OXP8oBOEISy69TpzRmoUnYPZ98YBYmdeKhgNZKiDF8qeCUPlrIk3MMxRkQo4fjqA0HkKBbr5A2OoL3ersK8PMQ==
   dependencies:
     core-js "^3.25.1"
     gsap "^3.11.1"
