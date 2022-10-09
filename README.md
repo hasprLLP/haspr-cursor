@@ -212,7 +212,11 @@ export default function CursorDemo() {
       </div>
 
       {/* Demo 8 : Reveal Texts on Hover */}
-      <div style={contStyle} onMouseEnter={() => CURSOR_REVEAL(dispatch, 'START', 'imRevealing', 'SMALL')} onMouseLeave={() => CURSOR_REVEAL(dispatch, 'END')}>
+      <div
+        style={contStyle}
+        onMouseEnter={() => CURSOR_REVEAL(dispatch, 'START', 'imRevealing', 'SMALL')}
+        onMouseLeave={() => CURSOR_REVEAL(dispatch, 'END', 'imRevealing')}
+      >
         <div style={{ overflow: 'hidden' }}>
           <div data-magnetism id="imRevealing" style={{ display: 'inline-block', paddingInline: '1.75vw' }}>
             Reveal Titles
