@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useCallback } from 'react' //` Context API and Hooks
-import { gsap, Power2 } from 'gsap/dist/gsap.js' //` GSAP Animation Engine
+import { gsap, Expo } from 'gsap/dist/gsap.js' //` GSAP Animation Engine
 import { SelectCursor } from './actions.js' //` Cursor Data Reducer
 
 //& Cursor
@@ -92,7 +92,7 @@ export default function Cursor() {
         gsap.to(cursorRef.current, {
           x: snapX,
           y: snapY,
-          ease: Power2.easeOut,
+          ease: Expo.easeOut,
           duration: 0.55,
         })
       } else {
@@ -152,7 +152,7 @@ export default function Cursor() {
           gsap.to(target, {
             x: magX,
             y: magY,
-            ease: Power2.easeOut,
+            ease: Expo.easeOut,
             duration: 0.35,
           })
         }
@@ -165,7 +165,7 @@ export default function Cursor() {
           gsap.to(target, {
             x: magX,
             y: magY,
-            ease: Power2.easeOut,
+            ease: Expo.easeOut,
             duration: 0.75,
           })
         }
@@ -176,7 +176,7 @@ export default function Cursor() {
         x: snapX || x,
         y: snapY || y,
         duration: 0.75,
-        ease: Power2.easeOut,
+        ease: Expo.easeOut,
         onUpdate: () => {
           vel.x = x - pos.x
           vel.y = y - pos.y
@@ -204,7 +204,7 @@ export default function Cursor() {
         gsap.to(magItem, {
           x: 0,
           y: 0,
-          ease: Power2.easeOut,
+          ease: Expo.easeOut,
           duration: 0.8,
         })
       })
